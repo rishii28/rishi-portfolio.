@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rishi Developer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"   integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous"   referrerpolicy="no-referrer" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+    <nav>
+        <div class="left">Rishi's Portfolio</div>
+        <div class="right">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        </div>
+    </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+    <!-- HOME SECTION -->
+    <section class="firstSection" id="home">
+    <div class="leftSection">
+    <p>Hi, My name is <span style="color:#6A5ACD; font-weight:bold;">Rishi</span></p>
+    <p>I am a Software Developer</p>
+    <p>I’m also a <span id="typed-text"></span></p>
+    <div class="resume-btn-wrapper">
+    <a href="Resume-1.png" target="_blank" class="resumeBtn">📄 Show Resume</a>
+    
+</div>    
+    </div>
+        
+        
+
+    <div class="rightSection">
+        <img src="ig.png.png" alt="Developer Image" />
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="aboutSection">
+        <h2>About Me</h2>
+
+        <div class="aboutBlock">
+        <p><i class="fa-solid fa-graduation-cap"></i> <strong>Academia:</strong></p>
+        <p>I am currently pursuing a B.Sc. in Information Technology from <strong>Indus University</strong>.</p>
+        <p>I have consistently performed well academically, securing an impressive <strong>9.09 CGPA</strong> from 1st to 3rd semester.</p>
+        <p>The 4th semester result is pending, and I am currently preparing for the 5th and 6th semesters.</p>
+        </div>
+
+        <div class="aboutBlock">
+        <p><i class="fas fa-laptop-code"></i> <strong>Learning Experience:</strong></p>
+        <p>I’ve learned and worked with <strong>C, Java, Python, HTML, CSS, JavaScript, and PHP</strong>.</p>
+        <p>I have a strong command in <strong>Java and Python</strong>, especially in object-oriented concepts and problem solving.</p>
+        <p>I'm always passionate about learning and believe that <em>"Every project is a step forward in mastering your craft."</em></p>
+        <p>Currently, I'm working on small projects and mini websites to gain hands-on experience and strengthen my full-stack skills.</p>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skillsSection">
+        <h2>Professional Skills</h2>
+        <div class="skillsGrid">
+        <div class="skillItem">Problem Solving & Algorithms</div>
+        <div class="skillItem">Programming Languages</div>
+        <div class="skillItem">Web Development</div>
+        <div class="skillItem">Communication</div>
+        <div class="skillItem">Time Management</div>
+        <div class="skillItem">Team Collaboration</div>
+        <div class="skillItem">Cloud Computing</div>
+        <div class="skillItem">Leadership</div>
+        <div class="skillItem">Adaptability</div>
+        </div>
+    </section>
+
+    <!-- CONTACT ME SECTION -->
+    <section id="contact" class="contactSection">
+        <h2>Contact Me</h2>
+        <p class="contactMsg">
+        Have a project in mind or want to collaborate? I'd love to hear from you.
+        </p>
+
+        <div class="contactDetails">
+        <div class="contactItem"><strong>Contact:</strong> 9265999304</div>
+        <div class="contactItem"><strong>LinkedIn:</strong> (Coming Soon)</div>
+        <div class="contactItem"><strong>Email:</strong> rishidalwadi2811@gmail.com</div>
+        <div class="contactItem"><strong>Location:</strong> Ahmedabad, India</div>
+        </div>
+
+        <p class="closingQuote">
+        "Every line of code I write is a step toward the developer I aspire to be."
+        </p>
+    </section>
+    </main>
+
+    <!-- FOOTER NAVIGATION -->
+    <footer class="footerNav">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="footerNote">© 2025 Rishi. All rights reserved.</p>
+</footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Typed.js Script -->
+    <script>
+    if (window.location.hash) {
+    history.replaceState("", document.title, window.location.pathname + window.location.search);
+    }
+    window.addEventListener("beforeunload", function () {
+    window.scrollTo(0, 0);
+    });
+    var typed = new Typed("#typed-text", {
+    strings: ["Web Developer", "Back-End Developer", "Frontend Enthusiast"],
+    typeSpeed: 60,
+    backSpeed: 30,
+    loop: true,
+    smartBackspace: true
+    });
+    </script>
+
+</body>
+</html>
+ś
